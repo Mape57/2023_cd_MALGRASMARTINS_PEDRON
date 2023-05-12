@@ -1,0 +1,19 @@
+on a un main qui :
+- appelle un constructeur de ChargeurMagasin qui va créer un objet ChargeurMagasin
+- appelle une méthode chargerMagasin qui va nous donner un ChargeurMagasin en appellant la classe ChargeurMagasin
+La classe Chargeur Magasin :
+- appelle un contructeur Magasin qui va creer un magasin
+- appelle un constructeur ChargeurCD qui va creer un objet ChargeurCD
+- appelle une méthode chargerCD qui va nous donner un ChargeurCD en appellant la classe ChargeurCD
+- appelle une méthode ajouteCd qui va ajouter un cd venant du magasin
+La classe ChargeurCD :
+- appelle un contructeur CD qui va creer un CD
+- appelle une méthode privée extrairePiste qui va s'appeler elle même et renvoyer les piste du cd
+- appelle une méthode ajouterPiste qui va ajouter un CD dans un CD
+- appelle une méthode privée extrairePiste qui va s'appeler elle même et renvoyer les piste du cd
+- appelle une méthode ajouterPiste qui va ajouter un CD dans un CD
+
+Au final, on extrait toutes les pistes d'un CD et on en rajoute une qu'on ajoutera dans un CD
+qu'on ajoutera dans un Magasin
+qu'on ajoutera dans Chargeur magasin
+et qui sera lancer dans le main
