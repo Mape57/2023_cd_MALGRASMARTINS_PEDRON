@@ -110,5 +110,6 @@ public class CD {
 	}
 
 	public boolean etreAvantAlbum(CD cdSelectionne) {
+		return this.getNomCD().compareTo(cdSelectionne.getNomCD()) < 0;
 	}
 }
