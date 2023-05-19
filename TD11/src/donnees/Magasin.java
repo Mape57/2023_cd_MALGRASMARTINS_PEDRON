@@ -114,6 +114,6 @@ public class Magasin {
 		}
 	}
 
-	// FinTODO ajouter une methode de tri
+
 
 }
