@@ -97,5 +97,17 @@ public class CD {
 		return (resultat);
 	}
 
-	// TODO 
+	public String getNomArtiste(){
+		return this.nomArtiste;
+	}
+
+	public String getNomCD(){
+		return this.nomCD;
+	}
+
+	public boolean etreAvantArtiste(CD cdSelectionne) {
+	}
+
+	public boolean etreAvantAlbum(CD cdSelectionne) {
+	}
 }
