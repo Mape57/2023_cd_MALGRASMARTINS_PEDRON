@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import comparateur.ComparateurAlbum;
 import comparateur.ComparateurArtiste;
+import comparateur.ComparateurPiste;
 import donnees.Magasin;
 import XML.ChargeurMagasin;
 
@@ -30,6 +31,9 @@ public class MainChargeurMagasin {
 		System.out.println(resultat);
 
 		resultat.trier(new ComparateurArtiste());
+		System.out.println(resultat);
+
+		resultat.trier(new ComparateurPiste());
 		System.out.println(resultat);
 	}
 }

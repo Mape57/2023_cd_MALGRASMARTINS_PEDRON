@@ -104,4 +104,8 @@ public class CD {
 	public String getNomCD(){
 		return this.nomCD;
 	}
+
+	public List<InfoPiste> getPistes() {
+		return pistes;
+	}
 }
