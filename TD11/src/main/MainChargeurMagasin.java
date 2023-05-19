@@ -3,6 +3,8 @@ package main;
 import java.io.IOException;
 import java.util.Scanner;
 
+import comparateur.ComparateurAlbum;
+import comparateur.ComparateurArtiste;
 import donnees.Magasin;
 import XML.ChargeurMagasin;
 
@@ -24,14 +26,10 @@ public class MainChargeurMagasin {
 		Magasin resultat = charge.chargerMagasin();
 		System.out.println(resultat);
 
-		Scanner sc = new Scanner(System.in);
-		sc.nextLine();
-		sc.close();
-
-		resultat.trierAriste();
+		resultat.trier(new ComparateurAlbum());
 		System.out.println(resultat);
 
-		resultat.trierAlbum();
+		resultat.trier(new ComparateurArtiste());
 		System.out.println(resultat);
 	}
 }
