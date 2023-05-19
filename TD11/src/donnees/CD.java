@@ -104,12 +104,4 @@ public class CD {
 	public String getNomCD(){
 		return this.nomCD;
 	}
-
-	public boolean etreAvantArtiste(CD cdSelectionne) {
-		return this.getNomArtiste().compareTo(cdSelectionne.getNomArtiste()) < 0;
-	}
-
-	public boolean etreAvantAlbum(CD cdSelectionne) {
-		return this.getNomCD().compareTo(cdSelectionne.getNomCD()) < 0;
-	}
 }
