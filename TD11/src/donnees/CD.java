@@ -106,6 +106,7 @@ public class CD {
 	}
 
 	public boolean etreAvantArtiste(CD cdSelectionne) {
+		return (cdSelectionne.getNomArtiste().compareTo(this.nomArtiste);
 	}
 
 	public boolean etreAvantAlbum(CD cdSelectionne) {
